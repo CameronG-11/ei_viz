@@ -22,10 +22,10 @@ The data is split into 4 different files. I'm sure it can be combined if you wis
 
 - ei_data.csv: EI data has the PPM(Post Posterior Mean, AKA estimated average) of each group and candidate. It is used to show the statewide density plot and the coloring of the choropleth map.
 
-- specific_precinct_data.csv: Contains the weights for each precinct(precinct id), demographic, and candidate tuple. There are 4000 weights per tuple, with the weights being how the PPM is calculated.
+- specific_precinct_data.csv **Stored in drive: [my drive]([url](https://drive.google.com/drive/folders/1RM9nggs0CX8thp7uQ96SBCMEQadLRXA4?usp=drive_link))**: Contains the weights for each precinct(precinct id), demographic, and candidate tuple. There are 4000 weights per tuple, with the weights being how the PPM is calculated.
   - The full data is extremely large, so a test *test_spd.csv* is included which includes only the first precinct's data. See *Notes on Full SPD* at the bottom of this readme.
 
-- Ossoff_Perdue.geojson: An aligned geojson of the state. It also has data in it, but I just take it from ei_data.
+- Ossoff_Perdue.geojson **Stored in drive: [my drive]([url](https://drive.google.com/drive/folders/1RM9nggs0CX8thp7uQ96SBCMEQadLRXA4?usp=drive_link))**: An aligned geojson of the state. It also has data in it, but I just take it from ei_data.
   - If you want to combine the data into 1 file, here is probably the best way to do so.  
 
 - helper.csv: Has a list of demographics, candidates (both to create the data swap buttons), and a list of all precinct names (used to get the order of each to align with specific_precinct_data.csv).
